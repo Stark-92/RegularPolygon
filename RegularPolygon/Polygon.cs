@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RegularPolygon
+﻿namespace RegularPolygon
 {
-    abstract class Polygon
+    public abstract class Polygon
     {
+        protected double sideLength;
 
-        abstract public float calculateArea();
+        abstract public double calculateArea();
 
     }
 }

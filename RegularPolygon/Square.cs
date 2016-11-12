@@ -1,21 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RegularPolygon
+﻿namespace RegularPolygon
 {
-    class Square : Polygon
+    public class Square : Polygon
     {
-        private float sideLength;
-
-        public Square(float sideLength)
+        public Square(double sideLength)
         {
             this.sideLength = sideLength;
         }
 
-        public override float calculateArea()
+        public override double calculateArea()
         {
             return sideLength * sideLength;
         }
