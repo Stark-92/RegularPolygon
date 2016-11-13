@@ -9,7 +9,7 @@ namespace RegularPolygon
             Console.WriteLine("Welcome to Regular Polygon area calculator application");
             Console.WriteLine("Please enter the regular polygon side length :");
             Console.WriteLine();
-            double sideLength = float.Parse(Console.ReadLine());
+            double sideLength = double.Parse(Console.ReadLine());
             Console.WriteLine();
 
             Triangle triangle = new Triangle(sideLength);
